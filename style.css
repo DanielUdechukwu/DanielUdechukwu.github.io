@@ -406,6 +406,7 @@ body{
 .brands{
   width: 100%;
   padding: 6rem 0;
+  background: #fafafa;
 }
 .brand-main{
   width: 70%;
@@ -422,4 +423,177 @@ body{
 }
 .brand-row img{
   width: 12rem;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial{
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 4rem;
+}
+.testimonial-text{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 4rem 0;
+}
+.testimonial-main{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+.right-testimonial, .left-testimonial{
+  background: #fff;
+  border-radius: .3rem;
+}
+.top-div{
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 0 .8rem 0;
+}
+.sub-testimonial{
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 0 3rem 1rem;
+}
+.user-details{
+  width: 100%;
+  padding: .7rem 0 0 0;
+}
+.user-details p{
+  font-size: .8rem;
+  color: #939191;
+}
+.sub-testimonial h4{
+  width: 90%;
+}
+.carousel{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
+}
+.lines{
+  margin-left: 24.3rem;
+  margin-right: 19.2rem;
+}
+.arrow-section{
+  display: flex;
+  gap: .6rem;
+}
+.left-arrow, .right-arrow{
+  width: 2.5rem;
+}
+.left-arrow svg, .right-arrow svg{
+  width: 2.5rem;
+  border-radius: 50%;
+  padding: .5rem;
+  background: #fafafa;
+}
+svg:hover{
+  fill: #fff;
+  background: #000;
+}
+
+/* FAQ SECTION */
+.faq-section{
+  width: 100%;
+  background: #e2e6e9;
+  padding-bottom: 4rem;
+}
+.faq-header{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+  font-size: 2rem;
+}
+.faq-questions{
+  width: 50%;
+  margin: 0 auto;
+}
+.first{
+  display: flex;
+  padding: 1.3rem 1.5rem;
+  background: #fff;
+}
+.faq-text{
+  padding: .1rem 0 0 0;
+}
+.faq-text h4{
+  padding-bottom: .6rem;
+}
+.faq-text p{
+  font-size: .8rem;
+  width: 80%;
+}
+.faq-image img{
+  width: 2rem
+}
+.others{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 1.5rem;
+  background: #fff;
+  margin-top: .5rem;
+}
+
+/* FOOTER section */
+footer{
+  width: 100%;
+  background: #222020;
+}
+.footer-top{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0 4rem 0;
+}
+.left-footer{
+  width: 50%;
+}
+.left-footer-text h3{
+  font-size: 2rem;
+  width: 70%;
+  padding-bottom: 2.5rem;
+  color: #fff;
+}
+.social{
+  display: flex;
+  gap: 1.2rem;
+  padding: .3rem 0 0 0;
+}
+.social a{
+  text-decoration: none;
+}
+.right-footer-text h4{
+  font-size: .8rem;
+  padding: 0 0 .4rem 0;
+  color: #a7a6a6;
+}
+.right-footer-text h3{
+  font-size: 1.2rem;
+  padding: 0 0 1.4rem 0;
+  color: #fff;
+}
+.footer-nav{
+  padding: 0 9em 0 0;
+}
+.footer-nav a{
+  color: #fff;
+}
+.footer-bottom{
+  background: #1e1b1b;
+}
+.copyright h4{
+  color: #fff;
+  font-size: .7rem;
+}
+footer .container{
+  width: 70%;
+  padding: 2rem  0;
 }
