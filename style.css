@@ -536,9 +536,12 @@ svg:hover{
 .others{
   display: flex;
   justify-content: space-between;
-  padding: 1.3rem 1.5rem;
+  padding: 1.3rem 1.5rem .8rem 1.5rem;
   background: #fff;
   margin-top: .5rem;
+}
+.others h4{
+  padding-top: .2rem;
 }
 
 /* FOOTER section */
