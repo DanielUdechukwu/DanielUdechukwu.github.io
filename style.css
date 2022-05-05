@@ -326,6 +326,12 @@ body{
   width: 1.5rem;
 }
 
+.test{
+  display: flex;
+  gap: .4rem;
+  width: 50%;
+}
+
 /* CONTACT SECTION */
 .cta{
   width: 100%;
@@ -599,4 +605,190 @@ footer{
 footer .container{
   width: 70%;
   padding: 2rem  0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 426px) {
+  .container .right-section,
+  .right-section ul,
+  .container{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .right-section > div,
+  .right-section,
+  .right-section ul,
+  .right-section a,
+  .right-section li{
+    width: 100%;
+  }
+  .right-section{
+    display: none;
+  }
+  .right-section a{
+    display: block;
+  }
+  .right-section li{
+    padding: .6rem 0;
+  }
+  .right-section a:hover{
+    color: blue;
+  }
+  .nav-contact{
+    border: none;
+  }
+  .left-section img{
+    padding: 0 0 0 0;
+  }
+
+  .image-section{
+    display: none;
+  }
+
+  .heading{
+    width: 90%;
+  }
+  .booking{
+    padding: .6rem 1rem 3rem 1rem;
+    width: 100%;
+    display: block;
+  }
+  .booking h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  .manifest{
+    display: block;
+    width: 90%;
+  }
+  .sub-main{
+    width: 100%;
+    padding: 2rem 0 1rem 0;
+    margin: 0 auto;
+  }
+  .sub-main h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+  }
+  .mini-text{
+    padding: 0;
+  }
+  .mini h4{
+    padding: .8rem 0 1rem 0;
+  }
+  .mini{
+    width: 95%;
+  }
+  .light{
+    margin: 0;
+  }
+  .light h2{
+    margin-bottom: 0;
+  }
+  .form-mini{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sub-main input{
+    margin-top: .2rem;
+  }
+  .btn{
+    padding: 12px;
+  }
+  .know-more{
+    width: 90%;
+    padding: 1rem 1rem;
+    display: none;
+  }
+  /* .know-more .sub{
+    width: 70%;
+    justify-content: normal;
+    gap: .6rem;
+  } */
+  .manifest-btn{
+    margin: 1.5rem 0 2rem 0;
+  }
+  .manifest-btn-div{
+    display: flex;
+    justify-content: center;
+  }
+  .process{
+    margin: 3rem 0 2rem 0;
+  }
+  .sub-process{
+    display: block;
+    width: 90%;
+  }
+  .process-left,
+  .processLeftText{
+    width: 100%;
+  }
+  .processLeftText h2 {
+  margin: 0 0 2rem 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  }
+  .processLeftText h4 {
+  padding-bottom: 1rem;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  }
+  .process-btn-div{
+    display: flex;
+    justify-content: center;
+  }
+  .process-right{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-quote{
+    gap: 1.5rem;
+  }
+  .quote-text{
+    width: 70%;
+  }
+  .quote-text h3{
+    margin-bottom: 1.5rem;
+  }
+  .offers-text{
+    width: 90%;
+  }
+  .offers-text p{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .offers-text h2{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .offers-grid{
+    display: block;
+    width: 80%;
+  }
+  .test{
+    width: 100%;
+    margin-bottom: .6rem;
+  }
+  .grid-service{
+    width: 80%;
+  }
+
+
+
+
+
+
+
+
+  .brands{
+    display: none;
+  }
+  .lines{
+    display: none;
+  }
 }
