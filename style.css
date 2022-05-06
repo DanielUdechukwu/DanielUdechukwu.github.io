@@ -608,7 +608,7 @@ footer .container{
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 426px) and (min-width: 200px) {
+@media (max-width: 26.625rem) {
   .container .right-section,
   .right-section ul,
   .container{
