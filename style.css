@@ -341,7 +341,7 @@ body{
 .cta-left{
   width: 50%;
   height: 330px;
-  background-image: url('');
+  /* background-image: url(''); */
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -640,13 +640,20 @@ footer .container{
   .left-section img{
     padding: 0 0 0 0;
   }
-
   .image-section{
-    display: none;
+    order: 1;
+    margin: 3rem 0 1rem 0;
   }
-
+  .booking{
+    order: 2;
+  }
+  .image-section img{
+    width: 24rem;
+    height: 20rem;
+  }
   .heading{
     width: 90%;
+    flex-direction: column;
   }
   .booking{
     padding: .6rem 1rem 3rem 1rem;
@@ -777,17 +784,108 @@ footer .container{
   .grid-service{
     width: 80%;
   }
-
-
-
-
-
-
-
-
-  .brands{
-    display: none;
+  .cta{
+    display: block;
   }
+  .cta-left{
+    width: 100%;
+  }
+  .cta-right{
+    width: 100%;
+  }
+  .cta-absolute{
+    height: 330px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .cta-absolute h3{
+    margin-top: 0;
+    padding-top: 2.5rem;
+  }
+  .experience{
+  }
+  .sub-container{
+    display: block;
+    height: 20rem;
+    padding-top: 1rem;
+    width: 90%;
+  }
+  .stats{
+    padding: .3rem 0;
+  }
+  .stats h2{
+    font-size: 1.8rem;
+  }
+  .brands{
+    padding: 2rem 0;
+  }
+  .brand-main{
+    width: 90%;
+  }
+  .brand-main h3{
+    padding-bottom: 1rem;
+  }
+  .brand-row{
+    flex-direction: column;
+  }
+  .brand-flex{
+    display: flex;
+  }
+  .testimonial-text{
+    width: 90%;
+    padding-top: 3rem;
+  }
+  .testimonial-text h3{
+    font-size: 1.6rem;
+  }
+  .testimonial-main{
+    width: 80%;
+    flex-direction: column;
+  }
+  .carousel{
+    width: 80%;
+    justify-content: flex-end;
+  }
+  .faq-header{
+    width: 90%;
+    padding-top: 2rem;
+  }
+  .faq-header h3{
+    font-size: 1.8rem;
+  }
+  .faq-questions{
+    width: 80%;
+  }
+  .faq-text p{
+    width: 100%;
+  }
+  .faq-text h4{
+    padding-top: .1rem;
+  }
+  .first{
+    padding: .6rem 1.2rem;
+  }
+  .footer-top{
+    width: 90%;
+    flex-direction: column;
+    padding: 2rem 0 1rem 0;
+  }
+  .left-footer{
+    width: 90%;
+  }
+  footer .container{
+    width: 90%;
+  }
+
+
+
+
+
+
+
+
   .lines{
     display: none;
   }
