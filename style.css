@@ -143,6 +143,8 @@ body{
 }
 .manifest-bg{
     background: #E2E6E9;
+    display: flex;
+    width: 0 auto;
 }
 .sub-main{
   width: 50%;
