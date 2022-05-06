@@ -608,7 +608,7 @@ footer .container{
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 200px) and (max-width: 440px) {
+@media (max-width: 480px) {
   .container .right-section,
   .right-section ul,
   .container{
@@ -804,8 +804,6 @@ footer .container{
     margin-top: 0;
     padding-top: 2.5rem;
   }
-  .experience{
-  }
   .sub-container{
     display: block;
     height: 20rem;
@@ -878,7 +876,6 @@ footer .container{
   footer .container{
     width: 90%;
   }
-
 
 
 
