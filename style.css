@@ -887,3 +887,250 @@ footer .container{
     display: none;
   }
 }
+
+
+
+/* ******************************************************************** */
+/* SERVICES TAB */
+.services{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 4.5rem;
+}
+.services-main{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  padding: 4rem 0 2rem 0;
+}
+.services-main > div img{
+  width: 45rem;
+  height: 24rem;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.service-absolute{
+  width: 55%;
+  height: 384px;
+  background: #1e1b1b;
+  position: absolute;
+  right: 0;
+}
+.service-absolute h3{
+  color: #fff;
+  font-size: 3.5rem;
+  padding: 3.5rem 0 1rem 4rem;
+}
+.service-absolute p{
+  color: #fff;
+  font-size: .9rem;
+  padding: 0 0 1rem 4rem;
+  width: 80%;
+}
+.serv{
+  margin: 1.5rem 0 0 .8rem;
+  background: #ff6433;
+}
+
+/* SERVICE SECTON */
+.car-service{
+  width: 100%;
+  background: #f5f5f5;
+  padding: 8rem 0 5rem 0;
+}
+.serv-minor{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+}
+.serv-left-section{
+  width: 50%;
+}
+.serv-right-section{
+  width: 45%;
+}
+.serv-grid{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.serv-left-section > div img{
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  /* padding: 0 0 2rem 0; */
+}
+.serv-section-text{
+  width: 80%;
+}
+.serv-section-text h3{
+  font-size: 2.2rem;
+  padding: 2rem 0 1rem 0;
+}
+.serv-section-text p{
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.serv-know-more{
+  width: 100%;
+}
+.serv-det{
+  display: flex;
+  gap: 1rem;
+  padding: 1.2rem 0 1rem 0;
+}
+.serv-det h3{
+  padding: .1rem 0 0 0;
+}
+
+/* HOW WE WORK SECTION */
+.how-section{
+  width: 100%;
+  padding: 5rem 0 1rem 0;
+}
+.how-section1{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 4rem;
+}
+.how-right{
+  display: flex;
+  gap: .2rem;
+}
+.how-right img{
+  height: 25rem;
+}
+.how-left h3{
+  font-size: 2.3rem;
+  width: 90%;
+  padding-bottom: 3rem;
+}
+.checkmark{
+  display: flex;
+  gap: 1rem;
+  width: 80%;
+  padding-bottom: 2.5rem;
+}
+.checkmark-img img{
+  width: 2rem;
+}
+.checkmark-text p{
+  font-size: 1rem;
+  width: 90%;
+}
+.how-section2{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 20rem 0;
+}
+.how-text{
+  width: 50%;
+  padding: 0 0 0 1.4rem;
+}
+.how-text h3{
+  font-size: 2.6rem;
+  width: 90%;
+  padding: 0 0 2.7rem 0;
+}
+.how-text p{
+  width: 80%;
+  font-size: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+/* MEDIA QUERY FOR SERVICES SECTION: MOBILE */
+@media (max-width: 480px){
+  .services-main{
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .services-main > div img{
+    width: 100%;
+    height: 20rem;
+  }
+  .service-absolute{
+    position: relative;
+    width: 100%;
+  }
+  .service-absolute h3{
+    padding: 3.5rem 0 1rem 2rem;
+  }
+  .service-absolute p{
+    padding: 0 0 1rem 2rem;
+  }
+  .button{
+    width: 90%;
+  }
+  .serv-minor{
+    width: 90%;
+    flex-direction: column;
+  }
+  .serv-left-section{
+    width: 100%;
+  }
+  .sls img{
+    width: 100%;
+  }
+  .serv-section-text{
+    width: 100%;
+  }
+  .serv-section-text h3{
+    text-align: center;
+    width: 100%;
+  }
+  .serv-section-text p{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .serv-det{
+    width: 90%;
+    justify-content: flex-end;
+  }
+  .serv-right-section{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .how-section{
+    padding-top: 2rem;
+  }
+  .how-section1{
+    width: 90%;
+    flex-direction: column;
+  }
+  .how-section2{
+    width: 90%;
+    flex-direction: column;
+  }
+  .how-section2 .how-right{
+    order: 2;
+  }
+  .how-section2 .how-left{
+    order: 1;
+  }
+  .how-left h3{
+    width: 100%;
+    font-size: 2rem;
+  }
+  .how-right{
+    width: 100%;
+  }
+  .how-right img{
+    width: 100%;
+  }
+  .how-text{
+    width: 100%;
+    padding: 0 0 2rem 1rem;
+  }
+  .how-text h3{
+    width: 100%;
+    font-size: 2rem;
+  }
+}
