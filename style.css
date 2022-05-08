@@ -622,9 +622,9 @@ footer .container{
   .right-section li{
     width: 100%;
   }
-  .right-section{
+/*   .right-section{
     display: none;
-  }
+  } */
   .right-section a{
     display: block;
   }
